@@ -1,0 +1,11 @@
+Summary:
+1.Model Used: Random forest classifier
+2.designation,province,country,review_title,region_1,region_2,price are the features used for training.Because I got good training accuracy with these features only in predicting variety.
+3.Model accuracy in train: Training Accuracy is 70%
+4.Insights :
+  1.Variety is independent on user_name(same user gave different responses for some same values)
+  2.Variety is independent on winery( for some winery it is not the same variety almost all the time)
+  3.Variety is independent on points(rating points are not same for the same variety which are the given by the users)
+  4.Variety is independent on review_description(for the same variety, there are different reviews and of varying sizes also)
+  5.Variety is dependent on price(almost all times same variety has same price)
+Note: Look at final.csv in data folder for the predicted variety of the test.csv
